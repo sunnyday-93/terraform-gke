@@ -1,7 +1,7 @@
 provider "google" {
-  project = "cicd-project-438005"
+  project = var.GOOGLE_PROJECT
   region  = "asia-northeast1"
-  credentials = file("~/.terraform-key.json")  # Path to service account JSON key
+  credentials = file(var.GOOGLE_CREDENTIALS)  # Path to service account JSON key
 }
 
 
