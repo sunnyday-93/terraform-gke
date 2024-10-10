@@ -1,3 +1,13 @@
+variable "GOOGLE_PROJECT" {
+  description = "The GCP project ID"
+  type        = string
+}
+
+variable "GOOGLE_CREDENTIALS" {
+  description = "The path to the service account JSON key"
+  type        = string
+}
+
 provider "google" {
   project = var.GOOGLE_PROJECT
   region  = "asia-northeast1"
