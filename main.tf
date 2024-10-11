@@ -1,7 +1,7 @@
 provider "google" {
   project = "cicd-project-438005"
   region  = "asia-northeast1"
-  credentials = var.GOOGLE_CREDENTIALS
+  credentials = GOOGLE_CREDENTIALS
 }
 
 
