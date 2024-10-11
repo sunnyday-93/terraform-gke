@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: cpu-hog
-        image: polinux/hello
+        image: xspiritusx/cpuhog:latest
         resources:
           requests:
             cpu: "100m"  # Requests 100m CPU
