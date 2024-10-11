@@ -6,7 +6,7 @@ EOF
 
 
 provider "google" {
-  project = "cicd-project-438005"
+  project = "xxxxxx"
   region  = "asia-northeast1"
   credentials = var.google_credentials
 }
