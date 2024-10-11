@@ -1,16 +1,7 @@
-variable "google_credentials" {
-  default = <<EOF
-{
-
-
-}
-EOF
-}
-
 provider "google" {
   project = "cicd-project-438005"
   region  = "asia-northeast1"
-  credentials = var.google_credentials
+  credentials = var.GOOGLE_CREDENTIALS
 }
 
 
